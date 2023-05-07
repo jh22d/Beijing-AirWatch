@@ -1,1 +1,14 @@
 # Predictive Modeling of PM 2.5 Levels for Improved Air Quality Management
+**Authors: Edward Wang, Jinghan Xu, Minzhang Si, Sammy Gulipalli**
+
+
+Air pollution is a major global issue, affecting both developed and developing countries. It has been linked to numerous negative health outcomes, including respiratory and cardiovascular diseases, cancer, and premature death (World Health Organization, 2018). In particular, fine particulate matter known as PM2.5 has been identified as a major contributor to the negative health impacts of air pollution. As such, understanding the factors that influence PM2.5 concentrations and developing effective strategies for mitigating these concentrations is of great importance.
+
+In this project, we will analyze two datasets on air quality in Beijing, China in order to better understand the drivers of PM2.5 concentrations in the city. The [first dataset](https://archive.ics.uci.edu/ml/machine-learning-databases/00381/), available from the UCI Machine Learning Repository, includes data on PM2.5 concentrations and various meteorological variables from 2010 to 2014 (UCI Machine Learning Repository, n.d.). The [second dataset](https://archive.ics.uci.edu/ml/machine-learning-databases/00501/), also from the UCI Machine Learning Repository, contains data on PM2.5 as well as four additional air pollutants - PM10, SO2, O3, and NO2 - from 2013 to 2017, with data broken down by individual monitoring stations within the city (UCI Machine Learning Repository, n.d.). By merging these datasets, we can examine the relationship between PM2.5 and other pollutants over a longer time period and at a more detailed spatial scale.
+
+In order to develop a linear regression model for predicting PM2.5 concentrations in Beijing, we will use data from 2013 and 2014 for training and testing. This approach allows us to evaluate the model's performance on a portion of the data while still utilizing the expanded set of variables provided by the second dataset. The model will be developed using various statistical and machine learning techniques discussed in the course, such as foward selection, LASSO, and Ridge regularization.
+
+Understanding the factors that influence PM2.5 concentrations in Beijing is of great importance for policy makers and other stakeholders working to improve air quality in the city. The results of this project will provide insights into the key drivers of PM2.5 concentrations in Beijing, and the developed model will be a valuable tool for predicting future PM2.5 concentrations. This information can be used to inform the development of policies and interventions aimed at reducing PM2.5 levels and improving air quality in the city.
+
+
+*Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips SVN/1.7.14 Phusion_Passenger/4.0.53 mod_perl/2.0.11 Perl/v5.16.3 Server at archive.ics.uci.edu Port 443*
