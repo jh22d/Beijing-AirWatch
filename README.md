@@ -1,2 +1,1 @@
-# STAT301-project-jh
-This is the group project for STAT301 
+# This is a predictive study on PM 2.5 level in Beijing, China
