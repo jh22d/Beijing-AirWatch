@@ -1,1 +1,2 @@
-# This is a predictive study on PM 2.5 level in Beijing, China
+# Beijing AirWatch
+## Predictive Modeling of PM 2.5 Levels for Improved Air Quality Management
